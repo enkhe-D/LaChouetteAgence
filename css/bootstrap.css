@@ -1830,6 +1830,12 @@ dd {
     margin-left: 0
 }
 
+table *{
+    border:1px solid black;
+    padding:12px;
+    text-align: center;
+}
+
 @media (min-width:768px) {
     .dl-horizontal dt {
         float: left;

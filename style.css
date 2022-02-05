@@ -52,7 +52,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 140px 50px;
 }
 
 .bloc-md {
@@ -330,7 +330,7 @@ a:hover {
 }
 
 .navbar .nav {
-    margin:auto;
+    margin: 9px auto 0;
 }
 
 .nav > li {
@@ -796,6 +796,14 @@ h4 {
     padding:24px;
 }
 
+.adresse{
+    width:100%;
+}
+
+iframe{
+    margin:30px 0;
+}
+
 .portfolio-row {
     /*margin-bottom: 44px;*/
     margin-top: 50px;
@@ -848,7 +856,7 @@ ul{
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000;
-    max-width:25%;
+    max-width:16%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -877,9 +885,9 @@ ul{
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.jpg");
-}
+}*/
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.jpg");
@@ -1097,6 +1105,9 @@ ul{
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .btn-atomic-tangerine {
+        max-width: 20%;
     }
 }
 
