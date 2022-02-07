@@ -35,7 +35,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
 .bloc {
     clear: both;
     background: 50% 50% no-repeat;
@@ -45,7 +44,6 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -885,9 +883,9 @@ ul{
     border-color: #364577!important;
 }
 
-/*.bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
-}*/
+.bg-dots-bg {
+    background-image: url("img/dots-bg.webp");
+}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.jpg");
@@ -898,7 +896,7 @@ ul{
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -965,7 +963,7 @@ ul{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1107,8 +1105,8 @@ ul{
         height: 320px;
     }
     .btn-atomic-tangerine {
-        max-width: 20%;
-    }
+        max-width: 37%;
+    }   
 }
 
 @media (max-width: 400px) {
