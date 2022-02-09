@@ -68,9 +68,9 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-.bloc .container {
-    padding: auto 0;
-}
+/*.bloc .container {
+    padding: au;
+}*/
 
 .bloc-lg {
     padding: 140px 50px;
@@ -510,6 +510,7 @@ select,
 .form-control{
     padding:11px;
     margin:12px;
+    width:25%;
 }
 
 .scrollToTop {
@@ -776,6 +777,10 @@ h4 {
     padding:24px;
 }
 
+textarea.form-control {
+    width: 540px;
+}
+
 .adresse{
     width:100%;
 }
@@ -896,7 +901,7 @@ ul{
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -980,6 +985,9 @@ ul{
         float: none;
         margin: 10px auto 0;
     }
+    .avis {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -987,7 +995,7 @@ ul{
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+    /*h1,
     h2,
     h3,
     h4,
@@ -1000,7 +1008,7 @@ ul{
     }
     .b-parallax {
         background-attachment: scroll;
-    }
+    }*/
 
     .navbar .nav,
     .nav > li,
@@ -1154,16 +1162,37 @@ ul{
         font-size: 22px;
     }
 
-    p {
-        font-size: 16px;
-    }
-
     .tc-white {
         font-size: 24px;
     }
 
     .btn-atomic-tangerine {
         max-width: 44%;
+    }
+
+    .bloc-md {
+        padding: 0;
+    }
+
+    .promess {
+        width: 100%;
+        padding-top:13px;
+    }
+
+    .col-sm-6 {
+        padding: 9px;
+    }
+
+    select, .form-control {
+        width: 60%;
+    }
+
+    textarea.form-control {
+        width: 323px;
+    }
+
+    img{
+        margin:auto;
     }
 }
 
