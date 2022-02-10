@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 </head>
 <body>
-	<ul class="accessibilite" tabindex="1">
+	<ul class="accessibilite">
 		<li><a href="#bloc-7">Passer au formulaire</a></li>
 		<li><a href="#lieu">Aller a l'adresse</a></li>
 		<li><a href="#horaire">Aller aux horaires</a></li>
@@ -73,7 +73,7 @@
 
 							<fieldset class="form-group">
 								<legend>Comment nous avez-vous connu? </legend>
-								<label for="choice">Comment nous avez-vous connu ?</label>
+								<label for="choice"></label>
 								<select id="choice" name="user_choice_other">
 									<option value="">Sélectionnez une option</option>
 									<option value="reseaux sociaux">Reseaux sociaux</option>
@@ -91,21 +91,21 @@
 								<textarea id="message" name="user_message" class="form-control" placeholder="Ajoutez autant de détails que nécessaire" rows="10" cols="50"required aria-required="true"></textarea>
 							</fieldset>
 
-							<input type="submit" class="text-center btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" value="Envoyer">
-							<input type="reset" class="text-center btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" value="Effacer">
+							<input type="submit" class="text-center btn btn-atomic-tangerine btn-clean btn-rd btn-lg" value="Envoyer">
+							<input type="reset" class="text-center btn btn-atomic-tangerine btn-clean btn-rd btn-lg" value="Effacer">
 						</form>
 					</section>
 
 					<section class="col-sm-6 adresse" id="lieu">
 						<h3>Adresse</h3>
-						<p>Pour nous contacter:<br/><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></p>
 						<address>
 							<p>2 place Sathonay 69001 Lyon</p>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0831373652127!2d4.827978615919555!3d45.76952407910577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1643962744382!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br/>
 						</address>
 
 						<h4 id="horaire">Horaire d'ouverture</h4>
-						<p>Nous somme ouvert du Lundi au Vendredi de 9h à 18h</p>
+						<p>Nous somme ouvert du Lundi au Vendredi de 9h à 18h<br/>
+						Pour nous contacter:<br/><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></p>
 					</section>
 				</div>
 			</div>
@@ -141,11 +141,10 @@
 		</nav>
 	</footer>
 
-<script src="./js/jquery-2.1.0.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/blocs.js"></script>
-<script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js"></script>
-<script src="./js/gmaps.js"></script>
+<script src="./js/jquery-2.1.0.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/blocs.min.js"></script>
+<script src="./js/jqBootstrapValidation.min.js"></script>
+<script src="./js/formHandler.min.js"></script>
 </body>
 </html>
