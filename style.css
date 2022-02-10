@@ -9,7 +9,7 @@ body {
 
 .accessibilite{
     position: absolute;
-    top:-10em;
+    top:-139px;
     z-index: 100;
     width: 100%;
 }
@@ -21,7 +21,6 @@ body {
     left:0;
     right: 0;
     text-align: center;
-    padding:0.5rem 0;
 }
 
 .accessibilite a:hover,
