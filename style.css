@@ -121,7 +121,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -1000,7 +1000,7 @@ ul{
         overflow-x: hidden;
         position: relative;
     }
-    /*h1,
+    h1,
     h2,
     h3,
     h4,
@@ -1013,18 +1013,26 @@ ul{
     }
     .b-parallax {
         background-attachment: scroll;
-    }*/
+    }
 
     .navbar .nav,
     .nav > li,
     .nav-invert .navbar-header{
         width:100%;
     }
+    
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         margin:9px 19px 0;
+        float: none!important;
     }
+
+    .navbar.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .site-navigation {
         position: inherit;
         transform: none;
