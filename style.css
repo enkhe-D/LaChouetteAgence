@@ -304,12 +304,6 @@ a:hover {
     margin-bottom: 70px;
     font-style: italic;
 }
-
-/*.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}*/
-
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -743,6 +737,10 @@ strong.realisation{
     margin: auto;
 }
 
+.reso{
+    padding-bottom: 25px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -862,7 +860,7 @@ ul{
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;/**couleur chelou**************************/
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
