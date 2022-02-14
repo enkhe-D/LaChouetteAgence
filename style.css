@@ -47,7 +47,6 @@ a:hover {
 
 *{
     list-style-type: none;
-    border:1px solid black;
 }
 
 #page-loading-blocs-notifaction {
@@ -839,6 +838,7 @@ iframe{
 .avis{
     font-size: 26px;
     font-style: italic;
+    margin-top:50px;
 }
 
 ul{
@@ -967,7 +967,7 @@ ul{
     .site-navigation {
         position: absolute;
         top: 40%;
-        right: 20px;
+        /*right: 20px;*/
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -1045,9 +1045,9 @@ ul{
         margin-right: 0;
     }
 
-    .navbar.row.accueil{
-        margin: 0px 20px!important;
-    }
+    /*.navbar.row.accueil{
+        margin: 0px 20px;
+    }*/
 
     .site-navigation {
         position: inherit;
@@ -1217,11 +1217,12 @@ ul{
     }
 
     textarea.form-control {
-        width: 310px;
+        width: 294px;
     }
 
     img{
         margin:auto;
+        margin-left:21px;
     }
 }
 
