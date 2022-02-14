@@ -55,8 +55,12 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    z-index: 1000;
+    background: #a70d0d url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+section{
+    padding:0;
 }
 .bloc {
     clear: both;
@@ -119,6 +123,10 @@ a:hover {
 
 .bloc-contact{
     position: relative;
+}
+
+.contact{
+    font-size: 2em;
 }
 
 .texture-paper::before {
@@ -315,6 +323,9 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+.row{
+    width: 100%;
 }
 
 #bloc-1-hero h1 {
@@ -1024,7 +1035,7 @@ ul{
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        margin:39px 19px 0;
+        margin:53px 0 0;
         float: none!important;
     }
 
