@@ -874,7 +874,7 @@ ul{
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;/**couleur chelou**************************/
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -1100,7 +1100,7 @@ ul{
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;/*a verifier*/
+        width: auto;
     }
     .nav-invert .navbar-header {
         float: none;
