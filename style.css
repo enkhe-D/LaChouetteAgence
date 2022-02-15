@@ -337,6 +337,15 @@ section{
     z-index: 1;
 }
 
+.navbar img{
+    width:196px;
+    height:40px;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+}
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
