@@ -49,14 +49,14 @@ a:hover {
     list-style-type: none;
 }
 
-/*#page-loading-blocs-notifaction {
+#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 1000;
     background: #a70d0d url("img/pageload-spinner.gif") no-repeat center center;
-}*/
+}
 
 section{
     padding:0;
@@ -70,9 +70,7 @@ section{
     background-size: cover;
     position: relative;
 }
-/*.bloc .container {
-    padding: au;
-}*/
+
 
 .bloc-lg {
     padding: 140px 50px;
@@ -133,10 +131,6 @@ section{
     background-size: 280px 280px;
 }
 
-.photo img{
-    width: 326px;
-    height:340px
-}
 .b-parallax {
     background-attachment: fixed;
 }
@@ -317,16 +311,16 @@ section{
     font-style: italic;
 }
 
-/*.row-no-gutters {
+.row-no-gutters {
     margin-right: 0;
     margin-left: 0;
-}*/
+}
 
-/*.row.row-no-gutters > [class^="col-"],
+.row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}*/
+}
 .row{
     width: 100%;
     margin:0;
