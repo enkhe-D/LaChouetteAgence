@@ -334,9 +334,10 @@ section{
     z-index: 1;
 }
 
-.navbar img{
-    width:196px;
-    height:40px;
+.navbar img {
+    width: 208px;
+    height: 40px;
+    padding-left: 12px;
 }
 
 .logo{
@@ -373,6 +374,7 @@ section{
 .nav > li {
     float: left;
     font-size: 16px;
+    padding-top:26px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -710,6 +712,9 @@ a {
     margin: auto;
 }
 
+.title-size{
+    font-size:30px!important;
+}
 .promess{
     font-size: 31px;
     width:100%;
@@ -763,6 +768,7 @@ strong.realisation{
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    padding-bottom:34px
 }
 
 h3, .cta-hero{
@@ -803,7 +809,7 @@ textarea.form-control {
 
 .adresse{
     width:100%;
-    margin-bottom: 0;
+    margin:55px 0 0;
 }
 
 iframe{
@@ -1018,7 +1024,7 @@ ul{
         overflow-x: hidden;
         position: relative;
     }
-    /*h1,
+    h1,
     h2,
     h3,
     h4,
@@ -1028,7 +1034,7 @@ ul{
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }*/
+    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1042,18 +1048,18 @@ ul{
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        margin:40px 0;
+        margin:40px 20px;
         float: none!important;
+    }
+
+    .navbar .nav.nav-contact {
+        margin:40px 0;
     }
 
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
     }
-
-    /*.navbar.row.accueil{
-        margin: 0px 20px;
-    }*/
 
     .site-navigation {
         position: inherit;
@@ -1177,9 +1183,13 @@ ul{
         padding-right: 0;
     }
 
-    /*.navbar .nav{
-        margin:9px 0 0;
-    }*/
+    ul#header-navigation{
+        margin:0;
+    }
+
+    .navbar .nav{
+        margin:40px 0 0;
+    }
 
     .promess {
         font-size: 19px;
@@ -1216,7 +1226,7 @@ ul{
 
     .promess {
         width: 100%;
-        padding-top:13px;
+        padding:13px;
     }
 
     .col-sm-6 {
@@ -1235,9 +1245,9 @@ ul{
         margin:auto;
     }
     .navbar img {
-        width: 196px;
+        width: 208px;
         height: 40px;
-        margin: 0 23px;
+        margin: 0px 12px;
     }
 }
 
