@@ -32,7 +32,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none;
+    /*outline: none;*/
 }
 
 input[type="submit"], input[type="reset"]{
@@ -474,9 +474,9 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
+/*button {
     outline: none!important;
-}
+}*/
 
 .btn-rd {
     border-radius: 40px;
@@ -763,6 +763,10 @@ strong.realisation{
 
 .social {
     margin: auto;
+}
+
+footer h4{
+    padding-bottom:39px;
 }
 
 h2 {
