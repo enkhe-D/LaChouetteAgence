@@ -46,6 +46,7 @@ a:hover {
 
 *{
     list-style-type: none;
+    border:1px solid black;
 }
 
 #page-loading-blocs-notifaction {
@@ -547,13 +548,22 @@ fieldset{
     transition: all .3s ease-in-out;
 }
 
-.scrollToTop span {
+/*.scrollToTop span {
     margin-top: 6px;
-}
+}*/
 
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+}
+
+.scrollToTop.btn{
+    padding:0;
+}
+
+p.hautDePage{
+    padding:0;
+    margin:0;
 }
 
 a[data-lightbox] {
@@ -1037,11 +1047,15 @@ ul{
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
+    }
+
+    .row{
+        margin:0;
     }
 
     .navbar .nav,
